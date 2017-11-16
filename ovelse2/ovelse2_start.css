@@ -1,0 +1,75 @@
+/* eksempel1 
+(C) Copyright 2017: Niels Østergaard
+Responsive webdesign */
+
+
+/* først en del der ikke er påvirket af regler */
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    margin: 0.5em;
+    color: #000;
+}
+
+header {
+    grid-area: a;
+    background-color: #F00;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+nav {
+    grid-area: b;
+    background-color: #ccc;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+#megetvigtigt{
+    grid-area: c;
+    background-color: #009e0f;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+#vigtigt{
+    grid-area: d;
+    background-color: #0ff;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+#knaptsaavigtigt{
+    grid-area: e;
+    background-color: #90f;
+    color: #fff;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+#ikkesaavigtigt{
+    grid-area: e;
+    background-color: #f90;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+#sletikkevigtigt{
+    grid-area: e;
+    background-color: #274e13;
+    color: #fff;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    grid-area: h;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: #000;
+    color: #aaa;
+    padding: 0.1em;
+}
+
+

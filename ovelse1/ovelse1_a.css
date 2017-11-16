@@ -1,0 +1,31 @@
+/* eksempel1 
+(C) Copyright 2017: Niels Østergaard
+Responsive webdesign */
+
+
+/* først en del der ikke er påvirket af regler */
+
+body {
+    font-family: sans-serif;
+    background-color: #fc0;
+    margin: 1em;
+    color: #000;
+}
+
+footer {
+    font-size: 0.8em;
+    text-align: right;
+}
+
+/* så en del der kun gælder hvis skærmen er over 500 pixels */
+
+@media screen and (min-width: 500px) {
+   
+    /* gentages body-selector */
+    body {
+        background-color: #000;
+        color: #fc0;
+    }
+    /* de properties der ikke angives i reglen, er uændrede (eks. margen og skrittype)
+}
+
